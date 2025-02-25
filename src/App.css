@@ -98,7 +98,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   display: flex;
   justify-content: center;
   background-image:url("/images/hero-background.png");
-  min-height:100vh;
+  height:100vh;
 }
 .hero-wrapper{
   width: 100%;
