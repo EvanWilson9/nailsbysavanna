@@ -13,7 +13,7 @@ export default function HomeServices() {
   }
 
   return (
-    <section className='hs-section first'>
+    <section id="services" className='hs-section first'>
         <div className='hs-wrapper'>
           <h1 className='section-title center'>Services</h1>
           <div className='services-container'>
@@ -33,17 +33,6 @@ export default function HomeServices() {
               desc="A Gel Manicure uses gel polish cured under UV/LED light for a long-lasting, glossy finish."
             />
           </div>
-            <div className='tiers-container'>
-              <div>Tier 1</div>
-              $35
-              <>Solid Color | Full Hand Chrome | Aura/Ombre</>
-              <div>Tier 2</div>
-              $40
-              <>French Tips | Basic Line Work | Charms</>
-              <div>Tier 3</div>
-              $45
-              <>3D Art | Detailed Line Work | Layered Art</>
-            </div>
         </div>
     </section>
   )
