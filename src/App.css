@@ -182,7 +182,6 @@ transform: rotate(-45deg) translate(7px, -6px);
 
 .policy-desc{}
 .my-policies{
-  margin-bottom: var(--sectionMargin);
   background-color:#801c23;
 }
 
@@ -250,4 +249,29 @@ transform: rotate(-45deg) translate(7px, -6px);
 }
 .check{
   width: 18px;
+}
+
+.gallery-section{
+  background-size:100% 100%;
+  padding:3rem 0px;
+  background-image:url('/images/hero-background.png');
+  margin-bottom: var(--sectionMargin);
+}
+.gallery-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1.5rem;
+  
+  /* background-color: lightcoral; */
+}
+.gallery-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+  color:white;  
+  padding:20px;
 }

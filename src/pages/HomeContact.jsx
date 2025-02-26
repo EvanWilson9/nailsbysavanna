@@ -4,7 +4,7 @@ export default function HomeContact() {
   return (
     <section className='hs-section'>
         <div className='hs-wrapper'>
-            <h2>Contact Me</h2>
+            <h1 className='section-title center'>Contact Me</h1>
         </div>
     </section>
   )
