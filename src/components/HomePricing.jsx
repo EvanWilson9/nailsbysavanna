@@ -17,31 +17,33 @@ export default function HomePricing() {
       }
 
   return (
-    <section className='hs-section'>
+    <section className='hs-section pricing'>
         <div className='hs-wrapper'>
-            <h1 className='section-title'>Pricing</h1>
-              <div className='tiers-container'>
-                <Tier 
-                title="Tier 1"
-                price="35"
-                item1="Solid Color"
-                item2="Full Hand Chrome"
-                item3="Aura/Ombre"
-                />
-                <Tier 
-                title="Tier 2"
-                price="40"
-                item1="French Tips"
-                item2="Basic Line Work"
-                item3="Charms"
-                />
-                <Tier 
-                title="Tier 3"
-                price="45"
-                item1="3D Art"
-                item2="Detailed Lime Work"
-                item3="Layered Art"
-                />
+            <h1 className='section-title center'>Pricing</h1>
+              <div className="tiers-wrapper">
+                <div className='tiers-container'>
+                    <Tier 
+                    title="Tier 1"
+                    price="35"
+                    item1="Solid Color"
+                    item2="Full Hand Chrome"
+                    item3="Aura/Ombre"
+                    />
+                    <Tier 
+                    title="Tier 2"
+                    price="40"
+                    item1="French Tips"
+                    item2="Basic Line Work"
+                    item3="Charms"
+                    />
+                    <Tier 
+                    title="Tier 3"
+                    price="45"
+                    item1="3D Art"
+                    item2="Detailed Lime Work"
+                    item3="Layered Art"
+                    />
+                </div>
               </div>
         </div>
     </section>

@@ -14,7 +14,7 @@ const Policy = (props) => {
   return (
     <section id="policies" className='hs-section my-policies'>
         <div className='hs-wrapper'>
-            <h1 className='section-title center'>My Policies</h1>
+            <h1 className='section-title p-section-title'>My Policies</h1>
             <div className='policies-container'>
                 <Policy
                     title="Cancelation"

@@ -29,6 +29,7 @@ nav {
   display: flex;
   color:white;
   padding:15px 0px;
+  /* margin-inline:var(--sectionPadding); */
 }
 .nav-wrapper {
   display: flex;
@@ -96,7 +97,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   display: flex;
   justify-content: center;
   background-image:url("/images/hero-background.png");
-  height:100vh;
+  height:100dvh;
 }
 .hero-wrapper{
   width: 100%;
@@ -139,7 +140,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   background-color: white;
 }
 .first{
-  padding-top:var(--sectionMargin);
+  padding-top: 3rem;
 }
 .hs-wrapper{
   max-width: 1280px;
@@ -152,17 +153,19 @@ transform: rotate(-45deg) translate(7px, -6px);
   color: white;
   padding: 10px;
   border-radius: 9rem;
-  text-align: center;
 }
 .center{
   text-align: center;
 }
-
+.p-section-title{
+  padding-top:var(--sectionMargin);
+}
 .policy{
+  color: black;
   display: flex;
   flex-direction: column;
   gap:1rem;
-  /* border: 1px solid black; */
+  border: 2px solid goldenrod;
   box-shadow: 0px 0px 10px 2px rgb(0,0,0,0.1);
   border-radius: 10px;
   padding:10px;
@@ -173,10 +176,14 @@ transform: rotate(-45deg) translate(7px, -6px);
   flex-direction: column;
   gap:1rem;
 }
-.policy-title{}
+.policy-title{
+  
+}
+
 .policy-desc{}
 .my-policies{
-  
+  margin-bottom: var(--sectionMargin);
+  background-color:#801c23;
 }
 
 .service{
@@ -192,6 +199,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   width: 100%;
   border-radius: 15% 30%;
   border: 3px solid goldenrod;
+  /* border: 3px solid #1C8079; */
 }
 .service-title{text-align: center;}
 .service-desc{text-align: center;}
@@ -202,11 +210,18 @@ transform: rotate(-45deg) translate(7px, -6px);
   margin-bottom: var(--sectionMargin);
 }
 
+.pricing{
+  margin-bottom: var(--sectionMargin);
+}
 .tiers-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap:1rem;
   justify-content: center;
+}
+.tiers-wrapper{
+  display: flex;
+  flex-direction: column;
 }
 .tier{
   display: flex;
@@ -219,6 +234,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   background-color: white;
   box-shadow: 0px 0px 10px 2px rgb(0,0,0,0.1);
 }
+
 .tier-price{
   font-weight: bold;
   font-size: 20px;
