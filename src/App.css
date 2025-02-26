@@ -148,6 +148,11 @@ transform: rotate(-45deg) translate(7px, -6px);
 }
 .section-title{
   margin-bottom: var(--titleMargin);
+  background-color: #801c23;
+  color: white;
+  padding: 10px;
+  border-radius: 9rem;
+  text-align: center;
 }
 .center{
   text-align: center;
