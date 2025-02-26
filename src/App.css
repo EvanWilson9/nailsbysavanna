@@ -252,8 +252,9 @@ transform: rotate(-45deg) translate(7px, -6px);
 }
 
 .gallery-section{
-  background-size:100% 100%;
-  padding:3rem 0px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding:5rem 0px;
   background-image:url('/images/hero-background.png');
   margin-bottom: var(--sectionMargin);
 }
