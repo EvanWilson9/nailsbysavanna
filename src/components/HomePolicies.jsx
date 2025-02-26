@@ -12,7 +12,7 @@ const Policy = (props) => {
 }
 
   return (
-    <section className='hs-section my-policies'>
+    <section id="policies" className='hs-section my-policies'>
         <div className='hs-wrapper'>
             <h1 className='section-title center'>My Policies</h1>
             <div className='policies-container'>

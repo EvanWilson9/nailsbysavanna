@@ -14,14 +14,13 @@ export default function Navbar() {
     <header>
         <nav>
             <div className="nav-wrapper">
-                <h1 className='nav-title'>Nails By Savanna</h1>
+                <Link className='link' to="/"><h1 className='nav-title'>Nails By Savanna</h1></Link>
                 <div className={`navbar-links ${isOpen ? 'opened' : 'closed'}`}>
-                    <Link className='link' to="/">Home</Link>
-                    <Link className='link' to="/services">Services</Link>
-                    <Link className='link' to="/policies">Policies</Link>
-                    <Link className='link' to="/gallery">Gallery</Link>
-                    <Link className='link' to="/contact">Contact</Link>
-                    <Link className='link' to="/book">Book</Link>
+                    <Link className='link' onClick={toggleNavbar} to="/">Home</Link>
+                    <a href="#services" className='link' onClick={toggleNavbar} to="/services">Services</a>
+                    <a href="#policies" className='link' onClick={toggleNavbar} to="/policies">Policies</a>
+                    <Link className='link' onClick={toggleNavbar} to="/gallery">Gallery</Link>
+                    <Link className='link' onClick={toggleNavbar} to="/contact">Contact</Link>
                 </div>
                 {!isOpen ? 
                 (

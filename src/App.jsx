@@ -7,7 +7,6 @@ import Services from './pages/Services'
 import Policies from './pages/Policies'
 import Gallery from './pages/Gallery'
 import Contact from './pages/Contact'
-import Book from './pages/Book'
 
 function App() {
 
@@ -20,7 +19,6 @@ function App() {
       <Route path="/policies" element={<Policies/>}/>
       <Route path="/gallery" element={<Gallery/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/book" element={<Book/>}/>
     </Routes>
     </>
   )
