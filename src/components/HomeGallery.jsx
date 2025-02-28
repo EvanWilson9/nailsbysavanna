@@ -7,7 +7,7 @@ export default function HomeGallery() {
         <div className='hs-wrapper gallery-wrapper'>
           <div className="gallery-container">
             <h2>Check out my work </h2>
-            <Link><button className='hero-btn white'>gallery</button></Link>
+            <Link to="/gallery"><button className='hero-btn white'>gallery</button></Link>
           </div>
         </div>
     </section>

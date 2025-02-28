@@ -17,8 +17,9 @@ export default function Navbar() {
                 <Link className='link' to="/"><h1 className='nav-title'>Nails By Savanna</h1></Link>
                 <div className={`navbar-links ${isOpen ? 'opened' : 'closed'}`}>
                     <Link className='link' onClick={toggleNavbar} to="/">Home</Link>
-                    <a href="#services" className='link' onClick={toggleNavbar} to="/services">Services</a>
-                    <a href="#policies" className='link' onClick={toggleNavbar} to="/policies">Policies</a>
+                    <a href="#services" className='link' onClick={toggleNavbar}>Services</a>
+                    <a href="#pricing" className='link' onClick={toggleNavbar}>Pricing</a>
+                    <a href="#policies" className='link' onClick={toggleNavbar}>Policies</a>
                     <Link className='link' onClick={toggleNavbar} to="/gallery">Gallery</Link>
                     <Link className='link' onClick={toggleNavbar} to="/contact">Contact</Link>
                 </div>
