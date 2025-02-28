@@ -261,15 +261,13 @@ transform: rotate(-45deg) translate(7px, -6px);
   padding:5rem 0px;
   background-image:url('/images/hero-background.png');
   margin-bottom: var(--sectionMargin);
-}
+  display: flex;
+  }
 .gallery-wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap:1.5rem;
-  
-  /* background-color: lightcoral; */
+  gap:1.5rem;  
 }
 .gallery-container{
   display: flex;
@@ -317,8 +315,9 @@ transform: rotate(-45deg) translate(7px, -6px);
   
 }
 
-.gallery-wrapper{
+.galleryp-wrapper{
   display: flex;
+  flex-direction: column;
   align-items: end;
   justify-content: end;
 }
