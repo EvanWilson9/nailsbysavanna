@@ -98,6 +98,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   justify-content: center;
   background-image:url("/images/hero-background.png");
   height:100dvh;
+  background-attachment: fixed;
 }
 .hero-wrapper{
   width: 100%;
@@ -333,6 +334,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   align-items: end;
   padding-bottom:3rem;
   padding-inline:1rem;
+  background-attachment: fixed;
 }
 .gallery-title{
   font-size:60px;
