@@ -89,8 +89,16 @@ opacity: 0;
 transform: rotate(-45deg) translate(7px, -6px);
 }
 
-.hero-section{
+html, body {
+  height: 100%;
+  background: url("/images/hero-background.png") no-repeat center center fixed;
   background-size: cover;
+}
+
+.hero-section{
+  /* background-size: cover; */
+  background: none;
+  background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -214,8 +222,13 @@ transform: rotate(-45deg) translate(7px, -6px);
   margin-bottom: var(--sectionMargin);
 }
 
-.pricing{
+.pricing-section{
   margin-bottom: var(--sectionMargin);
+  /* background-image: url("/images/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
 }
 .tiers-container{
   display: grid;

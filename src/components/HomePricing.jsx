@@ -17,7 +17,7 @@ export default function HomePricing() {
       }
 
   return (
-    <section id="pricing" className='hs-section pricing'>
+    <section id="pricing" className='hs-section pricing-section'>
         <div className='hs-wrapper'>
             <h1 className='section-title center'>Pricing</h1>
               <div className="tiers-wrapper">
