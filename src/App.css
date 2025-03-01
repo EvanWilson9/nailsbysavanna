@@ -97,7 +97,7 @@ transform: rotate(-45deg) translate(7px, -6px);
   display: flex;
   justify-content: center;
   background-image:url("/images/hero-background.png");
-  height:100dvh;
+  height:100vh;
   background-attachment: fixed;
 }
 .hero-wrapper{
