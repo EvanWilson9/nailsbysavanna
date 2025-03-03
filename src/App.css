@@ -225,7 +225,7 @@ html, body {
 }
 
 .pricing-section{
-  margin-bottom: var(--sectionMargin);
+  /* margin-bottom: var(--sectionMargin); */
   /* background-image: url("/images/hero-background.png");
   background-size: cover;
   background-position: center;
@@ -276,7 +276,7 @@ html, body {
   background-repeat: no-repeat;
   padding:5rem 0px;
   background-image:url('/images/hero-background.png');
-  margin-bottom: var(--sectionMargin);
+  /* margin-bottom: var(--sectionMargin); */
   display: flex;
   }
 .gallery-wrapper{
@@ -353,4 +353,8 @@ html, body {
 }
 .gallery-title{
   font-size:60px;
+}
+
+.contact{
+  padding-top:var(--sectionMargin)
 }

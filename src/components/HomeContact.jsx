@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HomeContact() {
   return (
-    <section id="contact" className='hs-section'>
+    <section id="contact" className='hs-section contact'>
         <div className='hs-wrapper'>
             <h1 className='section-title center'>Contact Me</h1>
             <div className='socials-container'>
