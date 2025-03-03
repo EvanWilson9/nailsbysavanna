@@ -2,9 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function HomeGallery() {
-
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-
   return (
     <section className='hs-section gallery-section'>
         <div className='hs-wrapper gallery-wrapper'>
