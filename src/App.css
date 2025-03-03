@@ -98,10 +98,15 @@ html, body {
 .hero-section{
   /* background-size: cover; */
   background: none;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
   display: flex;
   justify-content: center;
+  background-image:url("/images/hero-background.png");
   height:100vh;
+  background-attachment: fixed;
 }
 .hero-wrapper{
   width: 100%;
@@ -111,12 +116,7 @@ html, body {
   max-width: 1280px;
   height: 100%;
   margin-bottom: 4rem;
-  background-color: red;
-  background-size:cover;
-  background-image:url("/images/hero-background.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-bottom:3rem;
+  padding-bottom: 3rem;
 }
 .hero-content{
   display: flex;
